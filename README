@@ -1,0 +1,14 @@
+Safety Ninja
+Hackweek app project
+
+At initial stages right now.
+
+To-dos:
+-Come up with another name --> safetyninja.com is taken
+-Play sound does not  work.
+-Once on the send help sms page, repeatedly sends sms ~every 30 seconds, unless back button hit
+-Use Twilio API to translate sms to voice message so automates message to PSAFE
+-clean up code and commenting. Unnecessary things are probably in there.
+-Add circle of friends
+-add general "Add phone number of School police" so this can be generalised for more school campuses,
+no just Princeton

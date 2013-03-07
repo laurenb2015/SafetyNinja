@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity"
+    android:orientation="vertical" >
+
+     <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/lat"
+            android:textSize="20sp" />
+
+     <TextView
+            android:id="@+id/LatField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+     <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/lon"
+            android:textSize="20sp" />
+
+     <TextView
+            android:id="@+id/LonField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+     
+     <Button
+         android:id="@+id/btnCall"
+         android:padding="20dip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/call" />
+ 
+    </LinearLayout>
+  
+     
+     <TextView
+        android:id="@+id/Confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+     
+</LinearLayout>

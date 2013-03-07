@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+
+ 
+<!-- I am safe now button -->
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/txtPhoneNo"
+        android:inputType="phone"
+        android:hint="@string/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+  <LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">  
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/safe_now"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="friendSend" />
+    
+    </LinearLayout>
+
+ <LinearLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">  
+
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound"
+        android:background="@drawable/bhelp"
+        android:onClick="playSound"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center" />
+     
+    </LinearLayout> 
+     
+<!-- help button -->
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b2help"
+        android:gravity="center"
+        android:onClick="sendMessage"
+        android:padding="30dip"
+        android:text="@string/sos"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+</LinearLayout>
+    
+</LinearLayout>

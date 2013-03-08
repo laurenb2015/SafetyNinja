@@ -12,3 +12,6 @@ To-dos:
 -Add circle of friends
 -add general "Add phone number of School police" so this can be generalised for more school campuses,
 no just Princeton
+-can I do a map? A button that says "find nearest help" so when you click it shows a map of where you are (maybe using
+coordinates already found - or a MapListener or whatever service you need) and then shows nearest
+police station(s)
